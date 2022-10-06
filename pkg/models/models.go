@@ -13,3 +13,9 @@ type Group struct {
 	UsersList    []int
 	IntervalTime int
 }
+
+type Request struct {
+	Login    string
+	Password string
+	ObjectID int
+}
