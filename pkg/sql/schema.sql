@@ -3,7 +3,8 @@ CREATE TABLE users (
     name TEXT NOT NULL DEFAULT '',
     login TEXT NOT NULL DEFAULT '',
     password TEXT NOT NULL DEFAULT '',
-    last_cig INTEGER NOT NULL DEFAULT 0
+    last_cig INTEGER NOT NULL DEFAULT 0,
+    invitations INTEGER[] DEFAULT 0
 );
 
 CREATE TABLE groups (

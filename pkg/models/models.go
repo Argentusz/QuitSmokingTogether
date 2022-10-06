@@ -1,11 +1,12 @@
 package models
 
 type User struct {
-	ID       int
-	Name     string
-	Login    string
-	Password string
-	LastCig  int
+	ID          int
+	Name        string
+	Login       string
+	Password    string
+	LastCig     int
+	Invitations []int
 }
 
 type Group struct {
